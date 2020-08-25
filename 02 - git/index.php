@@ -1,4 +1,0 @@
-// Código
-// Correções
-// Outro desenvolvedor
-
