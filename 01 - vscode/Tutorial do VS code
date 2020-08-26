@@ -1,49 +1,50 @@
 Tutorial de Instalação e configuração do VSCODE
 
 (✅️) 1 Conhecer o site do VSCODE
-(✅️) 2 Instalação do VSCODE
+
+() 2 Instalação do VSCODE
 
   PARA USUÁRIOS LINUX
- - (✅️) sudo apt-get update
- - (✅️) sudo apt-get install software-properties-common apt-transport-https wget
- - (✅️) wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add --
- - (✅️) sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
- - (✅️) sudo apt-get install code
+ - () sudo apt-get update
+ - () sudo apt-get install software-properties-common apt-transport-https wget
+ - () wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add --
+ - () sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+ - () sudo apt-get install code
 
  PARA USUARIOS WINDOWS
  - Acessar o site do vscode, baixar o programa, e realizar instalação
 
-(✅️) 3 Instalar o VsCode em portugues
+() 3 Instalar o VsCode em portugues (Opcional, opte pode deixar em inglês mesmo)
 
-(✅️) 4 - Instalar extensões
+() 4 - Instalar extensões
 
- - (✅️) PHP intelephense
- - (✅️) Markdown All in One
- - (✅️) Bracket Pair Colorizer 2
- - (✅️) indent-rainbow
- - (✅️) git-leans
- - (✅️) git graph
- - (✅️) vscode faker
- - (✅️) ESLint
- - (✅️) presentation mode 
- - (✅️) vscode icons
- - (✅️) TODO
- - (✅️) Auto Close Tag
- - (✅️) Path Intellisense
- - (✅️) Auto rename
- - (✅️) Format HTML in PHP
- - (✅️) PHP Getters & Setters
- - (✅️) Theme Monokai
- - (✅️) PHP debug
- - (✅️) PHP constructor
- - (✅️) php namespace resolver
- - (✅️) PHP DocBlocker
- - (✅️) PHP Snippets
- - (✅️) PHP Getter & Setter
- - (✅️) Minify
- - (✅️) Wakatime
+ - () PHP intelephense
+ - () Markdown All in One
+ - () Bracket Pair Colorizer 2
+ - () indent-rainbow
+ - () git-leans
+ - () git graph
+ - () vscode faker
+ - () ESLint
+ - () presentation mode 
+ - () vscode icons
+ - () TODO
+ - () Auto Close Tag
+ - () Path Intellisense
+ - () Auto rename
+ - () Format HTML in PHP
+ - () PHP Getters & Setters
+ - () Theme Monokai
+ - () PHP debug
+ - () PHP constructor
+ - () php namespace resolver
+ - () PHP DocBlocker
+ - () PHP Snippets
+ - () PHP Getter & Setter
+ - () Minify
+ - () Wakatime
 
-(✅️) 06 - Alguns atalhos interessantes
+() 06 - Alguns atalhos interessantes
 
   – Navegar: ctrl + p
   – Command Palette: ctrl + shift + p
@@ -75,12 +76,15 @@ Tutorial de Instalação e configuração do VSCODE
     "files.autoSave": "onFocusChange"
 }
  
- - (✅️) Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+ - () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
       Obs.: o prettier funciona bem melhor quando se tem o nodejs instalado no sistema
-      - (✅️) instalar o nodejs
-      - (✅️) instalar o plugin do php no prettier
-      - (✅️) acessar a pasta: $ cd ~/.vscode/extensions/esbenp.prettier-vscode-*
-      - (✅️) dar o comando: $ npm install --save-dev prettier @prettier/plugin-php
+      - () instalar o nodejs
+            - $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+            - $ nvm install node # "node" is an alias for the latest version
+      
+      - () instalar o plugin do php no prettier
+      - () acessar a pasta: $ cd ~/.vscode/extensions/esbenp.prettier-vscode-*
+      - () dar o comando: $ npm install --save-dev prettier @prettier/plugin-php
 
 PARA USUARIOS WINDOWS
  
