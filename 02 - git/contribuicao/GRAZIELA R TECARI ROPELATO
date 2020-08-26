@@ -1,0 +1,25 @@
+PONTOS POSITIVOS:
+
+Professor com muito conhecimento
+
+PONTOS NEGATIVOS:
+
+Que tal 2 vídeos (1 completo e o outros resumido)
+
+-------
+Resumo pessoal (se quiserem comtribuir a vontade)
+
+
+git init (inicia o git)
+
+git add . (escutando o arquivo)
+
+git commit -m "descrição" (cria o versionamento local do arquivo)
+
+git remote add origin https://github.com/grazirtr/teste_git.git
+(aponta para o repositório remoto)
+
+git push -u origin master (manda a atualização para o repositório remoto)
+
+git clone url
+(baixa os arquivos do github para a máquina local)
