@@ -22,7 +22,7 @@ TUTORIAL DO GIT
      (✅️) acessando a pasta .git
      (✅️) criando um arquivo de teste: touch index.php
 
-() 5 - ENTENDENDO OS ESTÁGIOS DO GIT
+(✅️) 5 - ENTENDENDO OS ESTÁGIOS DO GIT
      () untracked files: git status (Arquivos sem controles de versão)
      () files to commit: git add . (Arquivos com controle de versão)
      () committed files: git commit -m "comentário" (Comitando arquivos)
