@@ -10,3 +10,4 @@
 // luis desenvovedor
 // Anderson Desenvolvedor
 // ana katarina azevedo
+// Thalita Glenda Beça Moutinho Chaves
