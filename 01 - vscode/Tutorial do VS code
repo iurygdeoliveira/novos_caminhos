@@ -75,8 +75,8 @@ Tutorial de Instalação e configuração do VSCODE
     "editor.fontWeight": "500",
     "files.autoSave": "onFocusChange"
 }
- 
- - () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+
+- () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
       Obs.: o prettier funciona bem melhor quando se tem o nodejs instalado no sistema
       - () instalar o nodejs
             - $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
