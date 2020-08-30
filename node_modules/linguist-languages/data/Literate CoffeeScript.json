@@ -1,0 +1,15 @@
+{
+  "name": "Literate CoffeeScript",
+  "type": "programming",
+  "tmScope": "source.litcoffee",
+  "group": "CoffeeScript",
+  "aceMode": "text",
+  "wrap": true,
+  "aliases": [
+    "litcoffee"
+  ],
+  "extensions": [
+    ".litcoffee"
+  ],
+  "languageId": 206
+}

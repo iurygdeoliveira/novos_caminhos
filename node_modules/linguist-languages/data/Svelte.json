@@ -1,0 +1,13 @@
+{
+  "name": "Svelte",
+  "type": "markup",
+  "tmScope": "source.svelte",
+  "group": "HTML",
+  "aceMode": "html",
+  "codemirrorMode": "htmlmixed",
+  "codemirrorMimeType": "text/html",
+  "extensions": [
+    ".svelte"
+  ],
+  "languageId": 928734530
+}

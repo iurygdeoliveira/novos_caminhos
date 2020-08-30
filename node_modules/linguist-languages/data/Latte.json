@@ -1,0 +1,13 @@
+{
+  "name": "Latte",
+  "type": "markup",
+  "group": "HTML",
+  "extensions": [
+    ".latte"
+  ],
+  "tmScope": "text.html.smarty",
+  "aceMode": "smarty",
+  "codemirrorMode": "smarty",
+  "codemirrorMimeType": "text/x-smarty",
+  "languageId": 196
+}

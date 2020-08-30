@@ -1,0 +1,16 @@
+{
+  "name": "Marko",
+  "group": "HTML",
+  "type": "markup",
+  "tmScope": "text.marko",
+  "extensions": [
+    ".marko"
+  ],
+  "aliases": [
+    "markojs"
+  ],
+  "aceMode": "text",
+  "codemirrorMode": "htmlmixed",
+  "codemirrorMimeType": "text/html",
+  "languageId": 932782397
+}

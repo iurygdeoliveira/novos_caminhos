@@ -1,0 +1,14 @@
+{
+  "name": "Sage",
+  "type": "programming",
+  "group": "Python",
+  "extensions": [
+    ".sage",
+    ".sagews"
+  ],
+  "tmScope": "source.python",
+  "aceMode": "python",
+  "codemirrorMode": "python",
+  "codemirrorMimeType": "text/x-python",
+  "languageId": 338
+}

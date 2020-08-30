@@ -1,0 +1,16 @@
+{
+  "name": "RHTML",
+  "type": "markup",
+  "group": "HTML",
+  "extensions": [
+    ".rhtml"
+  ],
+  "tmScope": "text.html.erb",
+  "aliases": [
+    "html+ruby"
+  ],
+  "aceMode": "rhtml",
+  "codemirrorMode": "htmlembedded",
+  "codemirrorMimeType": "application/x-erb",
+  "languageId": 312
+}

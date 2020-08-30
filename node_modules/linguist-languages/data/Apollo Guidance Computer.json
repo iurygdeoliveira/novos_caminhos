@@ -1,0 +1,11 @@
+{
+  "name": "Apollo Guidance Computer",
+  "type": "programming",
+  "group": "Assembly",
+  "extensions": [
+    ".agc"
+  ],
+  "tmScope": "source.agc",
+  "aceMode": "assembly_x86",
+  "languageId": 18
+}

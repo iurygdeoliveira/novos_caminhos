@@ -1,0 +1,12 @@
+{
+  "name": "Uno",
+  "type": "programming",
+  "extensions": [
+    ".uno"
+  ],
+  "aceMode": "csharp",
+  "codemirrorMode": "clike",
+  "codemirrorMimeType": "text/x-csharp",
+  "tmScope": "source.cs",
+  "languageId": 381
+}

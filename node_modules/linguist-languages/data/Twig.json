@@ -1,0 +1,13 @@
+{
+  "name": "Twig",
+  "type": "markup",
+  "group": "HTML",
+  "extensions": [
+    ".twig"
+  ],
+  "tmScope": "text.html.twig",
+  "aceMode": "twig",
+  "codemirrorMode": "twig",
+  "codemirrorMimeType": "text/x-twig",
+  "languageId": 377
+}

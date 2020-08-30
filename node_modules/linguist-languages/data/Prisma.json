@@ -1,0 +1,10 @@
+{
+  "name": "Prisma",
+  "type": "data",
+  "extensions": [
+    ".prisma"
+  ],
+  "tmScope": "source.prisma",
+  "aceMode": "text",
+  "languageId": 499933428
+}
