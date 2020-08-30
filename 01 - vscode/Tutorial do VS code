@@ -75,8 +75,8 @@ Tutorial de Instalação e configuração do VSCODE
     "editor.fontWeight": "500",
     "files.autoSave": "onFocusChange"
 }
- 
- - () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+
+- () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
       Obs.: o prettier funciona bem melhor quando se tem o nodejs instalado no sistema
       - () instalar o nodejs
             - $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -87,6 +87,34 @@ Tutorial de Instalação e configuração do VSCODE
       - () dar o comando: $ npm install --save-dev prettier @prettier/plugin-php
 
 PARA USUARIOS WINDOWS
+{
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "Monokai",
+    "php.suggest.basic": false,
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "php.validate.run": "onType",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "C:\\cmder\\vendor\\bin\\vscode_init.cmd"
+    ],
+    "files.autoSave": "onFocusChange"
+}
+ 
+ - () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+      Obs.: o prettier funciona bem melhor quando se tem o nodejs instalado no sistema
+      - () instalar o nodejs
+      - () instalar o plugin do php no prettier
+      - () acessar a pasta: C:\Users\IFTO\.vscode\extensions\esbenp.prettier-vscode*
+      - () dar o comando: npm install --save-dev prettier @prettier/plugin-php
  
 Instalar extensão  
 () 08 Settings Sync
