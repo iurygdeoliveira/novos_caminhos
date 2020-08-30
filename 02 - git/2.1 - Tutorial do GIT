@@ -29,23 +29,23 @@ TUTORIAL DO GIT
 
 (✔) 6 - CRIANDO ISSUES E UTILIZANDO ISSUES
 
-() 7 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
-     () git log (exibe o historico de commits)
-     () git log --since=2.days
-     () git log --since=2.weeks
-     () git stats (exibe modificações)
-     () git log --pretty=oneline  (tornando a exibição do git log mais agradável)
-     () git log --pretty=format: "%h - %an, %ar : %s" (tornando a exibição do git log AINDA mais agradável)
+(✔) 7 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
+     (✔) git log (exibe o historico de commits)
+     (✔) git log --since=2.days
+     (✔) git log --since=2.weeks
+     (✔) git status (exibe modificações)
+     (✔) git log --pretty=oneline  (tornando a exibição do git log mais agradável)
+     (✔) git log --pretty=format: "%h - %an, %ar : %s" (tornando a exibição do git log AINDA mais agradável)
 
 (✔) 8 - IGNORANDO ARQUIVOS DURANTE O CONTROLE DE VERSÃO
-     () .gitignore
+     (✔) .gitignore
 
-() 9 - RETORNANDO PELO FLUXO DO GIT
-     () git status; git add . ; git reset HEAD <nome do arquivo>
-     () git checkout <hash>
-     () git reset HEAD~1 (retornando commits)
-     () git reset HEAD~1 --soft (remove o commit e mantem os arquivos)
-     () git reset HEAD~1 --hard (CUIDADO !! remove o commit e os arquivos)
+(✔) 9 - RETORNANDO PELO FLUXO DO GIT
+     (✔) git status; git add . ; git reset HEAD <nome do arquivo>
+     (✔) git checkout <hash>
+     (✔) git reset HEAD~1 (retornando commits)
+     (✔) git reset HEAD~1 --soft (remove o commit e mantem os arquivos)
+     (✔) git reset HEAD~1 --hard (CUIDADO !! remove o commit e os arquivos)
 
 (✔) 10 - ENTENDENDO OS BRANCHES NO GIT 
      (✔) conceitos
