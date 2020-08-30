@@ -22,13 +22,15 @@ TUTORIAL DO GIT
      (✅️) acessando a pasta .git
      (✅️) criando um arquivo de teste: touch index.php
 
-() 5 - ENTENDENDO OS ESTÁGIOS DO GIT
+(✅️) 5 - ENTENDENDO OS ESTÁGIOS DO GIT
      () untracked files: git status (Arquivos sem controles de versão)
      () files to commit: git add . (Arquivos com controle de versão)
      () committed files: git commit -m "comentário" (Comitando arquivos)
      () checking committed files: git log (Verificando arquivos comitados)
 
-() 6 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
+() 6 - CRIANDO ISSUES E UTILIZANDO ISSUES
+
+() 7 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
      () git log (exibe o historico de commits)
      () git log --since=2.days
      () git log --since=2.weeks
@@ -36,17 +38,17 @@ TUTORIAL DO GIT
      () git log --pretty=oneline  (tornando a exibição do git log mais agradável)
      () git log --pretty=format: "%h - %an, %ar : %s" (tornando a exibição do git log AINDA mais agradável)
 
-() 7 - IGNORANDO ARQUIVOS DURANTE O CONTROLE DE VERSÃO
+() 8 - IGNORANDO ARQUIVOS DURANTE O CONTROLE DE VERSÃO
      () .gitignore
 
-() 8 - RETORNANDO PELO FLUXO DO GIT
+() 9 - RETORNANDO PELO FLUXO DO GIT
      () git status; git add . ; git reset HEAD <nome do arquivo>
      () git checkout <hash>
      () git reset HEAD~1 (retornando commits)
      () git reset HEAD~1 --soft (remove o commit e mantem os arquivos)
      () git reset HEAD~1 --hard (CUIDADO !! remove o commit e os arquivos)
 
-() 9 - ENTENDENDO OS BRANCHES NO GIT 
+() 10 - ENTENDENDO OS BRANCHES NO GIT 
      () conceitos
      () git branch (visualizando as branchs)
      () git checkout -b <nome> (criando uma nova branch)
@@ -54,7 +56,7 @@ TUTORIAL DO GIT
      () git log (para verificar o merge)
      () git rebase <nome da branch>
 
-() 10 - CONHECENDO O GITHUB E OUTROS REPOSITORIOS
+() 11 - CONHECENDO O GITHUB E OUTROS REPOSITORIOS
      () criando uma conta
      () criando repositorio
      () git push novos_caminhos master (subindo os arquivos para um repositorio)
@@ -67,20 +69,20 @@ TUTORIAL DO GIT
      () git branch -a (ver repositorios remotos)
      () git checkout -b <branch local> <branch remoto>(ligando branches locais em branchs remotos)
 
-() 11 - OBTENDO ATUALIZAÇÕES DO REPOSITÓRIO REMOTO
+() 12 - OBTENDO ATUALIZAÇÕES DO REPOSITÓRIO REMOTO
      () Vamos criar dois repositorios locais para simular duas máquinas
         git pull <repositorio remoto> <branch do repositorio remoto>
      () pull requests
      () git remote add fork <url>
 
-() 12 - APELIDANDO COMMITS
+() 13 - APELIDANDO COMMITS
      () git tag  <tag> (criando tags)
      () git tag -l  (listnado tags)
      () git push <repositorio> <branch> --tags (subindo tags)
 
-() 13 - CONTRIBUINDO COM OUTROS PROJETOS ATRAVÉS DO FORK NO GITHUB
+() 14 - CONTRIBUINDO COM OUTROS PROJETOS ATRAVÉS DO FORK NO GITHUB
 
-() 14 - VERSIONAMENTO SEMÂNTICO
+() 15 - VERSIONAMENTO SEMÂNTICO
         https://semver.org/lang/pt-BR/
         
         MAJOR VERSION . MINOR VERSION . PATCH (NÃO PODE HAVER QUEBRA COM VERSÕES ANTERIORES)
@@ -89,12 +91,12 @@ TUTORIAL DO GIT
         MINOR VERSION - NOVAS FUNCIONALIDADES QUE IMPACTAM VERSÕES ANTERIORES
         PATCH - CORREÇÕES QUE NÃO IRÃO AFETAR A VERSÃO ATUAL
 
-() 15 - RESOLVENDO CONFLITOS
+() 16 - RESOLVENDO CONFLITOS
 
 () 17 - INSTALAÇÃO DO GIT FLOW
-     () sudo apt-get install git flow
+     () sudo apt-get install git FLOW
 
-() 16 - TRABALHO COLABORATIVO COM GIT
+() 18 - TRABALHO COLABORATIVO COM GIT FLOW
       
       () Prover abstração e organização dos repositorios git
       () git flow init (iniciarlizar versão)
@@ -161,7 +163,6 @@ TUTORIAL DO GIT
                - se mescla com branch e develop
      
                () git flow bugfix start corrigindo_botao (criando uma bugfix)
-
 
      
 
