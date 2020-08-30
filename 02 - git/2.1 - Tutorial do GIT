@@ -66,22 +66,22 @@ TUTORIAL DO GIT
      (✔) git branch <nome> ; git push novos_caminhos funcionalidade1 (subindo um novo branch para o github)
      (✔) git clone <url> (realizando um clone de um repositorio)
      (✔) git branch -a (ver repositorios remotos)
-     () git checkout -b <branch local> <branch remoto>(ligando branches locais em branchs remotos)
+     (✔) git checkout -b <branch local> <branch remoto>(ligando branches locais em branchs remotos)
 
-() 12 - OBTENDO ATUALIZAÇÕES DO REPOSITÓRIO REMOTO
-     () Vamos criar dois repositorios locais para simular duas máquinas
+(✔) 12 - OBTENDO ATUALIZAÇÕES DO REPOSITÓRIO REMOTO
+     (✔) Vamos criar dois repositorios locais para simular duas máquinas
         git pull <repositorio remoto> <branch do repositorio remoto>
-     () pull requests
-     () git remote add fork <url>
+     (✔) pull requests
+     (✔) git remote add fork <url>
 
-() 13 - APELIDANDO COMMITS
-     () git tag  <tag> (criando tags)
-     () git tag -l  (listnado tags)
-     () git push <repositorio> <branch> --tags (subindo tags)
+(✔) 13 - APELIDANDO COMMITS
+     (✔) git tag  <tag> (criando tags)
+     (✔) git tag -l  (listnado tags)
+     (✔) git push <repositorio> <branch> --tags (subindo tags)
 
-() 14 - CONTRIBUINDO COM OUTROS PROJETOS ATRAVÉS DO FORK NO GITHUB
+(✔) 14 - CONTRIBUINDO COM OUTROS PROJETOS ATRAVÉS DO FORK NO GITHUB
 
-() 15 - VERSIONAMENTO SEMÂNTICO
+(✔) 15 - VERSIONAMENTO SEMÂNTICO
         https://semver.org/lang/pt-BR/
         
         MAJOR VERSION . MINOR VERSION . PATCH (NÃO PODE HAVER QUEBRA COM VERSÕES ANTERIORES)
@@ -90,12 +90,10 @@ TUTORIAL DO GIT
         MINOR VERSION - NOVAS FUNCIONALIDADES QUE IMPACTAM VERSÕES ANTERIORES
         PATCH - CORREÇÕES QUE NÃO IRÃO AFETAR A VERSÃO ATUAL
 
-() 16 - RESOLVENDO CONFLITOS
+(✔) 17 - INSTALAÇÃO DO GIT FLOW
+     (✔) sudo apt-get install git FLOW
 
-() 17 - INSTALAÇÃO DO GIT FLOW
-     () sudo apt-get install git FLOW
-
-() 18 - TRABALHO COLABORATIVO COM GIT FLOW
+(✔) 18 - TRABALHO COLABORATIVO COM GIT FLOW
       
       () Prover abstração e organização dos repositorios git
       () git flow init (iniciarlizar versão)
