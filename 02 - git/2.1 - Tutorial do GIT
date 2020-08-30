@@ -53,7 +53,7 @@ TUTORIAL DO GIT
      (✔) git checkout -b <nome> (criando uma nova branch)
      (✔) git merge <nome da branch> (unificando branchs)
      (✔) git log (para verificar o merge)
-     (✔) git rebase <nome da branch>
+
 
 (✔) 11 - CONHECENDO O GITHUB E OUTROS REPOSITORIOS
      (✔) criando uma conta
