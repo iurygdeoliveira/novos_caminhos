@@ -1,7 +1,6 @@
 TUTORIAL DO GIT
 
-
-(✅️) 1 - RAZÕES PARA SE TRABALHAR COM GIT
+(✔) 1 - RAZÕES PARA SE TRABALHAR COM GIT
      - É O PADRÃO DE MERCADO, É ALGO IMPERATIVO, OU SE USA GIT, 
        OU VOCÊ NÃO SERÁ CONSIDERADO UM DESENVOLVEDOR CONFIÁVEL  
      - ORGANIZAÇÃO DO SEU TRABALHO DE DESENVOLVIMENTO
@@ -9,78 +8,80 @@ TUTORIAL DO GIT
      - DESENVOLVIMENTO DE FUNCIONALIDADES EM BRANCHS
      - SITE DO GIT
 
-(✅️) 2 - INSTALAÇÃO NO GIT
+(✔) 2 - INSTALAÇÃO NO GIT
 
-(✅️) 3 - CONFIGURAÇÃO INICIAL
-     (✅️) Verificar instalação do git: git -v
-     (✅️) Configurar user name: git config --global user.name "Iury Gomes de Oliveira"
-     (✅️) Configurar email: git config --global user.email "seu_email@email.com.br"
-     (✅️) Configurar colorização: git config --global color.ui true
+(✔) 3 - CONFIGURAÇÃO INICIAL
+     (✔) Verificar instalação do git: git -v
+     (✔) Configurar user name: git config --global user.name "Iury Gomes de Oliveira"
+     (✔) Configurar email: git config --global user.email "seu_email@email.com.br"
+     (✔) Configurar colorização: git config --global color.ui true
 
-(✅️) 4 - CRIANDO O PRIMEIRO REPOSITORIO
-     (✅️) git init
-     (✅️) acessando a pasta .git
-     (✅️) criando um arquivo de teste: touch index.php
+(✔) 4 - CRIANDO O PRIMEIRO REPOSITORIO
+     (✔) git init
+     (✔) acessando a pasta .git
+     (✔) criando um arquivo de teste: touch index.php
 
-() 5 - ENTENDENDO OS ESTÁGIOS DO GIT
-     () untracked files: git status (Arquivos sem controles de versão)
-     () files to commit: git add . (Arquivos com controle de versão)
-     () committed files: git commit -m "comentário" (Comitando arquivos)
-     () checking committed files: git log (Verificando arquivos comitados)
+(✔) 5 - ENTENDENDO OS ESTÁGIOS DO GIT
+     (✔) untracked files: git status (Arquivos sem controles de versão)
+     (✔) files to commit: git add . (Arquivos com controle de versão)
+     (✔) committed files: git commit -m "comentário" (Comitando arquivos)
+     (✔) checking committed files: git log (Verificando arquivos comitados)
 
-() 6 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
-     () git log (exibe o historico de commits)
-     () git log --since=2.days
-     () git log --since=2.weeks
-     () git stats (exibe modificações)
-     () git log --pretty=oneline  (tornando a exibição do git log mais agradável)
-     () git log --pretty=format: "%h - %an, %ar : %s" (tornando a exibição do git log AINDA mais agradável)
+(✔) 6 - CRIANDO ISSUES E UTILIZANDO ISSUES
 
-() 7 - IGNORANDO ARQUIVOS DURANTE O CONTROLE DE VERSÃO
-     () .gitignore
+(✔) 7 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
+     (✔) git log (exibe o historico de commits)
+     (✔) git log --since=2.days
+     (✔) git log --since=2.weeks
+     (✔) git status (exibe modificações)
+     (✔) git log --pretty=oneline  (tornando a exibição do git log mais agradável)
+     (✔) git log --pretty=format: "%h - %an, %ar : %s" (tornando a exibição do git log AINDA mais agradável)
 
-() 8 - RETORNANDO PELO FLUXO DO GIT
-     () git status; git add . ; git reset HEAD <nome do arquivo>
-     () git checkout <hash>
-     () git reset HEAD~1 (retornando commits)
-     () git reset HEAD~1 --soft (remove o commit e mantem os arquivos)
-     () git reset HEAD~1 --hard (CUIDADO !! remove o commit e os arquivos)
+(✔) 8 - IGNORANDO ARQUIVOS DURANTE O CONTROLE DE VERSÃO
+     (✔) .gitignore
 
-() 9 - ENTENDENDO OS BRANCHES NO GIT 
-     () conceitos
-     () git branch (visualizando as branchs)
-     () git checkout -b <nome> (criando uma nova branch)
-     () git merge <nome da branch> (unificando branchs)
-     () git log (para verificar o merge)
-     () git rebase <nome da branch>
+(✔) 9 - RETORNANDO PELO FLUXO DO GIT
+     (✔) git status; git add . ; git reset HEAD <nome do arquivo>
+     (✔) git checkout <hash>
+     (✔) git reset HEAD~1 (retornando commits)
+     (✔) git reset HEAD~1 --soft (remove o commit e mantem os arquivos)
+     (✔) git reset HEAD~1 --hard (CUIDADO !! remove o commit e os arquivos)
 
-() 10 - CONHECENDO O GITHUB E OUTROS REPOSITORIOS
-     () criando uma conta
-     () criando repositorio
-     () git push novos_caminhos master (subindo os arquivos para um repositorio)
-     () ssh-keygen (gerando chaves de acesso)
-     () cat id_rsa.pub (copiando a chave)
-     () git remote add novos_caminhos <url>
-     () git remote (listando repositorios remotos)
-     () git branch <nome> ; git push novos_caminhos funcionalidade1 (subindo um novo branch para o github)
-     () git clone <url> (realizando um clone de um repositorio)
-     () git branch -a (ver repositorios remotos)
-     () git checkout -b <branch local> <branch remoto>(ligando branches locais em branchs remotos)
+(✔) 10 - ENTENDENDO OS BRANCHES NO GIT 
+     (✔) conceitos
+     (✔) git branch (visualizando as branchs)
+     (✔) git checkout -b <nome> (criando uma nova branch)
+     (✔) git merge <nome da branch> (unificando branchs)
+     (✔) git log (para verificar o merge)
 
-() 11 - OBTENDO ATUALIZAÇÕES DO REPOSITÓRIO REMOTO
-     () Vamos criar dois repositorios locais para simular duas máquinas
+
+(✔) 11 - CONHECENDO O GITHUB E OUTROS REPOSITORIOS
+     (✔) criando uma conta
+     (✔) criando repositorio
+     (✔) git push novos_caminhos master (subindo os arquivos para um repositorio)
+     (✔) ssh-keygen (gerando chaves de acesso)
+     (✔) cat id_rsa.pub (copiando a chave)
+     (✔) git remote add novos_caminhos <url>
+     (✔) git remote (listando repositorios remotos)
+     (✔) git branch <nome> ; git push novos_caminhos funcionalidade1 (subindo um novo branch para o github)
+     (✔) git clone <url> (realizando um clone de um repositorio)
+     (✔) git branch -a (ver repositorios remotos)
+     (✔) git checkout -b <branch local> <branch remoto>(ligando branches locais em branchs remotos)
+
+(✔) 12 - OBTENDO ATUALIZAÇÕES DO REPOSITÓRIO REMOTO
+     (✔) Vamos criar dois repositorios locais para simular duas máquinas
         git pull <repositorio remoto> <branch do repositorio remoto>
-     () pull requests
-     () git remote add fork <url>
+     (✔) pull requests
+     (✔) git remote add fork <url>
 
-() 12 - APELIDANDO COMMITS
-     () git tag  <tag> (criando tags)
-     () git tag -l  (listnado tags)
-     () git push <repositorio> <branch> --tags (subindo tags)
+(✔) 13 - APELIDANDO COMMITS
+     (✔) git tag  <tag> (criando tags)
+     (✔) git tag -l  (listnado tags)
+     (✔) git push <repositorio> <branch> --tags (subindo tags)
 
-() 13 - CONTRIBUINDO COM OUTROS PROJETOS ATRAVÉS DO FORK NO GITHUB
+(✔) 14 - CONTRIBUINDO COM OUTROS PROJETOS ATRAVÉS DO FORK NO GITHUB
 
-() 14 - VERSIONAMENTO SEMÂNTICO
+(✔) 15 - VERSIONAMENTO SEMÂNTICO
         https://semver.org/lang/pt-BR/
         
         MAJOR VERSION . MINOR VERSION . PATCH (NÃO PODE HAVER QUEBRA COM VERSÕES ANTERIORES)
@@ -89,12 +90,10 @@ TUTORIAL DO GIT
         MINOR VERSION - NOVAS FUNCIONALIDADES QUE IMPACTAM VERSÕES ANTERIORES
         PATCH - CORREÇÕES QUE NÃO IRÃO AFETAR A VERSÃO ATUAL
 
-() 15 - RESOLVENDO CONFLITOS
+(✔) 17 - INSTALAÇÃO DO GIT FLOW
+     (✔) sudo apt-get install git FLOW
 
-() 17 - INSTALAÇÃO DO GIT FLOW
-     () sudo apt-get install git flow
-
-() 16 - TRABALHO COLABORATIVO COM GIT
+(✔) 18 - TRABALHO COLABORATIVO COM GIT FLOW
       
       () Prover abstração e organização dos repositorios git
       () git flow init (iniciarlizar versão)
@@ -128,7 +127,7 @@ TUTORIAL DO GIT
                () git flow feature checkout feature3
 
 
-          - RELEASES: Define uma nova veroa de produção do software
+          - RELEASES: Define uma nova versão de produção do software
                - Prefixo Padrão RELEASE/*
                - iniciar em develop
                - Será mesclado em master e também em develop
@@ -161,7 +160,6 @@ TUTORIAL DO GIT
                - se mescla com branch e develop
      
                () git flow bugfix start corrigindo_botao (criando uma bugfix)
-
 
      
 
