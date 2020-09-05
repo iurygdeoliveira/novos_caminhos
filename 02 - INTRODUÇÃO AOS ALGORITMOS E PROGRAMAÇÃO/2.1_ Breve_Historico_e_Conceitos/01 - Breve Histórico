@@ -10,7 +10,7 @@ programação e vários desenvolvedores passam a colaborar com o desenvolvimento
 
 - 2000/2003 - PHP 4
 
-A versão 3 é totalmente abandonada e o PHP 4 é desenvolvido com recursos de OO.
+A versão 3 é totalmente abandonada e o PHP 4 é desenvolvido com recursos de Orientação a Objetos (OO).
 O que atraiu milhares de desenvolvedores para a linguagem
 
 - 2004/2014 - PHP 5
@@ -20,7 +20,7 @@ agora totalmente orientado a objetos, banco de dados com PDO,
 jSON nativo, namespaces, interfaces, traits e diversos outros
 recursos que solidificaram o PHP
 
-- 2015 / 202 - PHP 7
+- 2015 / 2020 - PHP 7
 
 Com performance surpreendente e fortificação em recursos de OO,
 o PHP é visto como uma linguagem madura presente em mais de 78.9%
