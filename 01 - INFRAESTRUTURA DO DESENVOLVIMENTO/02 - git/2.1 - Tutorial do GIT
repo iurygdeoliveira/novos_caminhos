@@ -127,7 +127,7 @@ TUTORIAL DO GIT
                () git flow feature checkout feature3
 
 
-          - RELEASES: Define uma nova veroa de produção do software
+          - RELEASES: Define uma nova versão de produção do software
                - Prefixo Padrão RELEASE/*
                - iniciar em develop
                - Será mesclado em master e também em develop
