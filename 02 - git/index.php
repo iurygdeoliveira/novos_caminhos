@@ -1,3 +1,0 @@
-// Código
-// Correções
-// Outro desenvolvedor
