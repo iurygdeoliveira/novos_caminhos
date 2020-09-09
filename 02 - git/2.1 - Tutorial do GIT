@@ -28,9 +28,9 @@ TUTORIAL DO GIT
      () committed files: git commit -m "comentário" (Comitando arquivos)
      () checking committed files: git log (Verificando arquivos comitados)
 
-() 6 - CRIANDO ISSUES E UTILIZANDO ISSUES
+(✅️) 6 - CRIANDO ISSUES E UTILIZANDO ISSUES
 
-() 7 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
+(✅️) 7 - CONHECENDO ALGUNS COMANDOS DE ESTATISCAS DO GIT
      () git log (exibe o historico de commits)
      () git log --since=2.days
      () git log --since=2.weeks
