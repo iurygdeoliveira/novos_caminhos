@@ -2,9 +2,9 @@
 require __DIR__ . '/../framework/config.php';
 PHPClassName('Aula 02 - Comandos de Saída');
 
-PHPClassSession('echo', __LINE__);
+PHPClassSession('linha de comando echo', __LINE__);
 
-echo "<p>Olá mundo</p>";
+echo "<p>Olá world. Futuros desenvolvedores chegando rsssssss</p>";
 echo 23 . PHP_EOL;
 
 $hello = "Olá mundo";
@@ -19,6 +19,7 @@ $array = [
     "company" => "IFTO",
     "course" => "Programador WEB",
     "class" => "Comandos de Saída",
+    "class2" => "testando classe nova e live server",
 ];
 
 echo "<pre>";
