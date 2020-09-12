@@ -1,0 +1,12 @@
+{
+  "name": "JFlex",
+  "type": "programming",
+  "group": "Lex",
+  "extensions": [
+    ".flex",
+    ".jflex"
+  ],
+  "tmScope": "source.jflex",
+  "aceMode": "text",
+  "languageId": 173
+}
