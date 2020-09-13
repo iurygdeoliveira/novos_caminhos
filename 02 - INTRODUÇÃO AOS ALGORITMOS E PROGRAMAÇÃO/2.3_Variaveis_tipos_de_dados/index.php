@@ -49,7 +49,7 @@ var_dump($code, $codeclear);
 
 PHPClassSession('OUTROS TIPOS', __LINE__);
 
-$string = "Olá mundo";
+$string = "Olá mundo de merda";
 $array = [$string];
 $null = null;
 $int = 12345;
