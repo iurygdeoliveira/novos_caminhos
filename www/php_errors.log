@@ -1,0 +1,2 @@
+[13-Sep-2020 13:31:08 America/Araguaina] PHP Parse error:  syntax error, unexpected '"soma dos dois "' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /usr/share/nginx/html/2.4_Operadores/index.php on line 30
+[13-Sep-2020 17:30:04 America/Araguaina] PHP Parse error:  syntax error, unexpected 'PHPClassName' (T_STRING), expecting '(' in /usr/share/nginx/html/framework/config.php on line 37

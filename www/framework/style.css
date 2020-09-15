@@ -48,14 +48,16 @@ p {
     margin: 10px 0;
 }
 
-.logo {
+.logo, .logo2 {
     margin-bottom: 30px;
     display: block;
     margin: 0 auto 30px auto;
-    max-width: 100%;
+    widht: 50%;
+    max-width: 50%;
     width: auto;
     height: auto;
 }
+
 
 .tag {
     font-family: "Source Code Pro", serif;
