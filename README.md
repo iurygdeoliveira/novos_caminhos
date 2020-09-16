@@ -1,1 +1,2 @@
 PROSSEGUINDO COM GIT FLOW
+Treinando o Git Flow
