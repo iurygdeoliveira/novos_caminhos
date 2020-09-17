@@ -1,3 +1,0 @@
-/**
-Atualizando código do projeto
-*/
