@@ -10,8 +10,9 @@ PHPClassSession('include, include_once', __LINE__);
 
 //include "header.php";
 
-include __DIR__ . "/header.php";
-
+include __DIR__ . "/header.php";    //inclui o arquivo no script atual
+                                    //o DIR indica que o arquivo header está
+                                    //na mesma pasta do index.php 
 var_dump(__DIR__);
 
 $profile = new stdClass();
