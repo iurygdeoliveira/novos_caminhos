@@ -1,0 +1,15 @@
+{
+  "name": "NumPy",
+  "type": "programming",
+  "group": "Python",
+  "extensions": [
+    ".numpy",
+    ".numpyw",
+    ".numsc"
+  ],
+  "tmScope": "none",
+  "aceMode": "text",
+  "codemirrorMode": "python",
+  "codemirrorMimeType": "text/x-python",
+  "languageId": 254
+}

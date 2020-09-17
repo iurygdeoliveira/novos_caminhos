@@ -1,0 +1,10 @@
+{
+  "name": "OpenStep Property List",
+  "type": "data",
+  "extensions": [
+    ".plist"
+  ],
+  "tmScope": "source.plist",
+  "aceMode": "text",
+  "languageId": 598917541
+}

@@ -1,0 +1,123 @@
+Tutorial de Instalação e configuração do VSCODE
+
+(✔) 1 Conhecer o site do VSCODE
+
+() 2 Instalação do VSCODE
+
+  PARA USUÁRIOS LINUX
+ - () sudo apt-get update
+ - () sudo apt-get install software-properties-common apt-transport-https wget
+ - () wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add --
+ - () sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+ - () sudo apt-get install code
+
+ PARA USUARIOS WINDOWS
+ - Acessar o site do vscode, baixar o programa, e realizar instalação
+
+() 3 Instalar o VsCode em portugues (Opcional, opte pode deixar em inglês mesmo)
+
+() 4 - Instalar extensões
+
+ - () PHP intelephense
+ - () Markdown All in One
+ - () Bracket Pair Colorizer 2
+ - () indent-rainbow
+ - () git-leans
+ - () git graph
+ - () vscode faker
+ - () ESLint
+ - () presentation mode 
+ - () vscode icons
+ - () TODO
+ - () Auto Close Tag
+ - () Path Intellisense
+ - () Auto rename
+ - () Format HTML in PHP
+ - () PHP Getters & Setters
+ - () Theme Monokai
+ - () PHP debug
+ - () PHP constructor
+ - () php namespace resolver
+ - () PHP DocBlocker
+ - () PHP Snippets
+ - () PHP Getter & Setter
+ - () Minify
+ - () Wakatime
+
+() 06 - Alguns atalhos interessantes
+
+  – Navegar: ctrl + p
+  – Command Palette: ctrl + shift + p
+  – Abrir arquivo lado a lado: ctrl + clique com o mouse no arquivo
+  – Abrir explorador: ctrl + shift + e
+  - Zen Mode: ctrl + k, z
+  - Pular de linha: ctrl + g  <numero da linha>
+  - mover linha: alt + pra cima  ou alt + pra baixo
+  - duplicar linha pra cima ou pra baixo: alt + shit + pra cima ou pra baixo
+  - deletar uma linha: shift + comand + k
+  - alterar todos os valores de uma vez: ctrl + f OU CTRL + d
+
+() 07 - Configurações no settings.json
+
+ PARA USUARIOS LINUX
+ {
+    "workbench.iconTheme": "vscode-icons",
+    "todo-tree.tree.showScanModeButton": false,
+    "php.suggest.basic": false,
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "php.validate.run": "onType",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Monokai",
+    "editor.fontWeight": "500",
+    "files.autoSave": "onFocusChange"
+}
+
+- () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+      Obs.: o prettier funciona bem melhor quando se tem o nodejs instalado no sistema
+      - () instalar o nodejs
+            - $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+            - $ nvm install node # "node" is an alias for the latest version
+      
+      - () instalar o plugin do php no prettier
+      - () acessar a pasta: $ cd ~/.vscode/extensions/esbenp.prettier-vscode-*
+      - () dar o comando: $ npm install --save-dev prettier @prettier/plugin-php
+
+PARA USUARIOS WINDOWS
+{
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "Monokai",
+    "php.suggest.basic": false,
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "php.validate.run": "onType",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "C:\\cmder\\vendor\\bin\\vscode_init.cmd"
+    ],
+    "files.autoSave": "onFocusChange"
+}
+ 
+ - () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+      Obs.: o prettier funciona bem melhor quando se tem o nodejs instalado no sistema
+      - () instalar o nodejs
+      - () instalar o plugin do php no prettier
+      - () acessar a pasta: C:\Users\IFTO\.vscode\extensions\esbenp.prettier-vscode*
+      - () dar o comando: npm install --save-dev prettier @prettier/plugin-php
+ 
+Instalar extensão  
+() 08 Settings Sync
+
+
+

@@ -1,0 +1,28 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "vscode-icons",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "Monokai",
+    "php.suggest.basic": false,
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "php.validate.run": "onType",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "C:\\cmder\\vendor\\bin\\vscode_init.cmd"
+    ],
+    "files.autoSave": "onFocusChange",
+    "explorer.compactFolders": false,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/",
+        "proxyUri": "http://127.0.0.1:9999"
+    }
+}
