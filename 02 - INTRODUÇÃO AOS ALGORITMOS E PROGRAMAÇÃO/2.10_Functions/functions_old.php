@@ -1,12 +1,11 @@
 <?php
 
-/* O QUE ESTÁ AQUI. Quer dizer, as variáveis criadas fora da função
-não serão enxergadas pelas funções. Se você criar uma variável dentro
-da function só estará utilizável dentro do functions */
+// O QUE ESTÁ AQUI
+
 function functionName($arg1, $arg2, $arg3)
 {
-    $body = [$arg1, $arg2, $arg3];  //argumentos são valores passados pra 
-    return $body;                   //dentro da função.
+    $body = [$arg1, $arg2, $arg3];
+    return $body;
 }
 
 // function calcIMC($weight, $height)
