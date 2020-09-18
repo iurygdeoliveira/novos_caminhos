@@ -14,17 +14,6 @@ TUTORIAL DO DOCKER
         - remover um container (sudo docker rm < id container >)
         - remover uma imagem (sudo docker rmi < id imagem >)
 
-        Windows 
-
-        - docker run hello-word (testa se o docker está em execução)
-        - verificar quais imagens está presentes na máquina (docker images)
-        - verificar quais containers estão em execução (docker ps)
-        - verificar todos os containers criados (docker ps -a )
-        - parar a execução de um container (docker stop < id container >)
-        - remover um container (docker rm < id container >)
-        - remover uma imagem (docker rmi < id imagem >)
-
-
 
 
 
