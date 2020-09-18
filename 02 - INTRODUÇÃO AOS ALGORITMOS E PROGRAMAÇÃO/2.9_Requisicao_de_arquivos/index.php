@@ -9,7 +9,7 @@ include "file.php";
 echo "<p>CONTINUE</p>";
 // O include, mesmo que ele tenha algum problema na hora de carregar
 // algum arquivo, ele vai continuar executando o codigo. O mesmo não
-// ocorre com o require como exemplificado na linha 22
+// ocorre com o require como exemplificado na linha 30
 
 //include "header.php";
 
