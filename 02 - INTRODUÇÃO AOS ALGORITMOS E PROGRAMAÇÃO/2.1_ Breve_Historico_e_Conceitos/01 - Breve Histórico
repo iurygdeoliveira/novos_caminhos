@@ -1,0 +1,28 @@
+- 1994/1995 - PHP 1 e 2
+
+O PHP é criado por Rasmus para ser usado no desenvolvimento de sua página pessoal, era
+apenas um conjunto de scripts que foi chamado de Personal Home Page Tools.
+
+- 1997/1998 - PHP 3
+
+Andi e Zeev entram no time para reescrever a base do PHP como uma linguagem completa de
+programação e vários desenvolvedores passam a colaborar com o desenvolvimento do PHP.
+
+- 2000/2003 - PHP 4
+
+A versão 3 é totalmente abandonada e o PHP 4 é desenvolvido com recursos de Orientação a Objetos (OO).
+O que atraiu milhares de desenvolvedores para a linguagem
+
+- 2004/2014 - PHP 5
+
+Ocorre a acensão do PHP com a versão 2 do zend engine,
+agora totalmente orientado a objetos, banco de dados com PDO,
+jSON nativo, namespaces, interfaces, traits e diversos outros
+recursos que solidificaram o PHP
+
+- 2015 / 2020 - PHP 7
+
+Com performance surpreendente e fortificação em recursos de OO,
+o PHP é visto como uma linguagem madura presente em mais de 78.9%
+dos sites na internet sendo a mais utilizada linguagem de
+programação do mundo (https://w3techs.com/)
