@@ -23,27 +23,40 @@ $assoc = ["dev4" => "FULL CYCLE DEVELOPER"] + $assoc;
 array_push($index, "DEVOPS");
 $assoc = $assoc + ["dev5" => "DEVOPS"];
 
-// array_shift($index);
+// array_shift($index);//REMOVE O PRIMEIRO ELEMETO DO ARRAY
 // array_shift($assoc);
 
-// array_pop($index);
+// array_pop($index);// REMOVE O ULTIMO ELEMENTO DO ARRAY
 // array_pop($assoc);
 
-// var_dump($index, $assoc);
+var_dump($index, $assoc);
 
 PHPClassSession('Ordenação', __LINE__);
 
 $index = array_reverse($index);
 $assoc = array_reverse($assoc);
 
-asort($index);
-asort($assoc);
+echo "Array_reverse" . PHP_EOL;
+var_dump($index, $assoc);
 
-ksort($index);
-ksort($assoc);
 
-sort($index);
+asort($index); //ORDENA DE ACORDO COM O VALOR
+asort($assoc); //ORDENA DE ACORDO COM O VALOR
 
+echo "asort" . PHP_EOL;
+var_dump($index, $assoc);
+
+ksort($index); // ORDENA DE ACORDO COM O INDICE
+ksort($assoc); // ORDENA DE ACORDO COM O INDICE
+
+echo "ksort" . PHP_EOL;
+var_dump($index, $assoc);
+
+sort($index); // ORDENA DE ACORDO COM O VALOR
+// sort($assoc); // ORDENA DE ACORDO COM O VALOR, OBSERVACAO QUE ESSE METODO REMOVEU OS
+// INDICES DO ASSOC E PASSOU PARA 0, 1, 2, 3... NO LUGAR DE "DEV1", "DEV2", "DEV3"...
+
+echo "sort" . PHP_EOL;
 var_dump($index, $assoc);
 
 PHPClassSession('Verificação', __LINE__);
@@ -59,18 +72,18 @@ if (in_array("FRONT END DEVELOPER", $assoc)) {
     echo "<p> Existe um developer</p>";
 }
 
-$arrToString = implode(", ", $assoc);
+$arrToString = implode(", ", $assoc); // PEGA O VETOR E CRIA UMA STRING COM OS VALORES SEPARADOS POR ', ' COMO MOSTRA O PRIMEIRO PARAMETRO
 echo "<p> Eu sou {$arrToString} !</p>";
 echo "<p>{$arrToString}</p>";
 
-var_dump(explode(", ", $arrToString));
+var_dump(explode(", ", $arrToString)); // RETORNANDO AO ESTADO ORIGINAL DO ARRAY A PARTIR DA STRING
 
 PHPClassSession('Exemplo Prático', __LINE__);
 
 $profile = [
-    "name" => "Iury",
+    "name" => "Thiago Sartori",
     "company" => "IFTO",
-    "mail" => "iury.oliveira@ifto.edu.br"
+    "mail" => "thiagosartori@live.com"
 ];
 
 $template = <<<TPL

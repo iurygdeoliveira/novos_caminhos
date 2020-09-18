@@ -2,9 +2,6 @@
 require __DIR__ . '/../framework/config.php';
 PHPClassName("2.11 - Constantes Mágicas no PHP");
 
-/*
-*
-*/
 PHPClassSession('constantes', __LINE__);
 
 define("COURSE", "PROGRAMADOR WEB"); // É interpretado durante a execução
@@ -24,13 +21,12 @@ echo "<p> {COURSE_TYPE}  {COURSE} do {AUTHOR} </p>";
 
 class Config
 {
-
     const USER = "root";
     const HOST = "localhost";
 }
 
-var_dump(get_defined_constants(true)["user"]);
-//var_dump(get_defined_constants(true));
+var_dump(get_defined_constants(true)["user"]); //Lista todas as constantes definadas pelo programador
+//var_dump(get_defined_constants(true));//Lista todas as constantes do PHP
 
 PHPClassSession('Constantes Mágicas', __LINE__);
 
