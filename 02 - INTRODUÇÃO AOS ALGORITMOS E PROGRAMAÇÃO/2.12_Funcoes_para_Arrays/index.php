@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../framework/config.php';
 PHPClassName('2.12 - Manipulando Vetores');
-
+//commented by @jalexandrersilva
 
 PHPClassSession('Manipulação', __LINE__);
 
@@ -17,17 +17,27 @@ $assoc = [
     "dev3" => "FULL STACK DEVELOPER",
 ];
 
+//o comando abaixo inicia em cima do vetor $index o string
 array_unshift($index, "", "FULL CYCLE DEVELOPER");
+
+//adiciona um vetor acima dos demais
 $assoc = ["dev4" => "FULL CYCLE DEVELOPER"] + $assoc;
 
+//adiciona abaixo do vetor
 array_push($index, "DEVOPS");
+
+//adiciona no final do vetor 
 $assoc = $assoc + ["dev5" => "DEVOPS"];
 
-// array_shift($index);
-// array_shift($assoc);
+/*os dois comandos abaixo, conforme vídeo 10.6, organizar os
+  elementos em ordem 
+    array_shift($index);
+    array_shift($assoc);
 
-// array_pop($index);
-// array_pop($assoc);
+Retira o último elemento
+    array_pop($index);
+    array_pop($assoc);
+*/
 
 // var_dump($index, $assoc);
 
@@ -55,6 +65,7 @@ var_dump(
     ]
 );
 
+//localiza um elemento dentro de uma array
 if (in_array("FRONT END DEVELOPER", $assoc)) {
     echo "<p> Existe um developer</p>";
 }

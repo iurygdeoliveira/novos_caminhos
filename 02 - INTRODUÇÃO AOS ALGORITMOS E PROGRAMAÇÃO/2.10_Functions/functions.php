@@ -16,8 +16,8 @@ function functionName($arg1, $arg2, $arg3)
 
 function calcIMC_Global()
 {
-    global $weight;
-    global $height;
+    global $weight;         //a definição global significa que essa 
+    global $height;         //variável será vista em qualquer parte do código
     return $weight / ($height * $height);
 }
 
