@@ -1,1 +1,12 @@
 .gitignore
+00 - Programa do Curso
+01 - INFRAESTRUTURA DO DESENVOLVIMENTO
+02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO
+02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO\2.1_ Breve_Historico_e_Conceitos
+02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO\2.1_ Breve_Historico_e_Conceitos\assets
+02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO\2.2_Comandos_de_saida
+docker
+docker\nginx
+docker\php
+www
+www\framework
