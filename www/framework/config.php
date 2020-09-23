@@ -2,7 +2,6 @@
 
 header("Content-Type: text/html; charset=utf-8");
 
-
 /**
  * [ PHP Basic Config ] Configurações basicas do sistema
  * Configura o timezone da aplicação
@@ -26,9 +25,8 @@ ini_set('xdebug.overload_var_dump', 1);
  */
 
 echo "<link rel='stylesheet' href='http://127.0.0.1:9999/framework/style.css'/>",
-"<link rel='icon' href='http://www.ifto.edu.br/++theme++portal-do-ifto-amarelo/img/favicon.ico'/>",
-"<img class='logo' src='http://127.0.0.1:9999/framework/logo.jpeg'/>";
-
+    "<link rel='icon' href='http://www.ifto.edu.br/++theme++portal-do-ifto-amarelo/img/favicon.ico'/>",
+    "<img class='logo' src='http://127.0.0.1:9999/framework/logo.jpeg'/>";
 
 /**
  * [ Title Function ] Cria o título do arquivo para o browser
@@ -38,7 +36,6 @@ function PHPClassName($className)
     echo "<title>{$className} | Programador WEB</title>";
 }
 
-
 /**
  * [ Debug session ] Cria uma linha de sessão para exemplos
  * @var $color = red | green | yellow | blue
@@ -46,18 +43,19 @@ function PHPClassName($className)
  */
 function PHPClassSession($session, $line, $color = null)
 {
-    $line = (!empty($line) ? " <span class='line-session'>| Linha {$line}</span>" : "");
-    $session = (!empty($session) ? "[ {$session}{$line} ]" : "");
-    $color = (!empty($color) ? "var(--{$color})" : "");
+    $line = !empty($line)
+        ? " <span class='line-session'>| Linha {$line}</span>"
+        : "";
+    $session = !empty($session) ? "[ {$session}{$line} ]" : "";
+    $color = !empty($color) ? "var(--{$color})" : "";
     echo "<div class='code line' style='background-color: {$color}'>{$session}</div>";
 }
-
 
 /**
  * [ Default errors ] Função para exibir erros do PHP
  */
 function PHPErrorHandler($error, $message, $file, $line)
 {
-    $color = ($error == E_USER_ERROR ? "red" : "yellow");
+    $color = $error == E_USER_ERROR ? "red" : "yellow";
     echo "<div class='trigger' style='border-color: var(--{$color}); color:var(--{$color});'>[ Linha {$line} ] {$message}<small>{$file}</small></div>";
 }
