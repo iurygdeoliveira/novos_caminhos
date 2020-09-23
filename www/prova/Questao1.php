@@ -19,7 +19,7 @@
 //Retorno inteiro
 //O número do século em que se encontra o ano.
 
-echo "teste";
+
 function centuryFromYear($year)
 {
 
