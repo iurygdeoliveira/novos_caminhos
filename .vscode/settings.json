@@ -4,5 +4,6 @@
             "name": "feature/webdesing",
             "base": "develop"
         }
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
