@@ -1,4 +1,5 @@
 .gitignore
+<<<<<<< HEAD
 00 - Programa do Curso
 01 - INFRAESTRUTURA DO DESENVOLVIMENTO
 02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO
@@ -10,3 +11,6 @@ docker\nginx
 docker\php
 www
 www\framework
+=======
+02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO/prova
+>>>>>>> prof_iury/master
