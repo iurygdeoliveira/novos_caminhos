@@ -19,10 +19,7 @@
 //Retorno inteiro
 //O número do século em que se encontra o ano.
 
-
 function centuryFromYear($year)
 {
-
     // CÓDIGO ...
-
 }
