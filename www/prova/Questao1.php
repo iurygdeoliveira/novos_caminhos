@@ -22,7 +22,13 @@
 
 function centuryFromYear($year)
 {
-
-    // CÓDIGO ...
-
+    $year = 1700;
+    $x=$year/100;
+    if(round($x)!=$x){
+        return floor($x)+1;
+    } else{
+        return $x;
+    }
 }
+$year=100;
+echo centuryFromYear($year);

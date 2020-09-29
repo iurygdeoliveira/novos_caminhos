@@ -18,5 +18,5 @@
 
 function checkPalindrome($inputString)
 {
-    // CÓDIGO
+    
 }
