@@ -9,6 +9,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.formatOnPaste": true,
+    "editor.wordWrap": "bounded",
     "php.validate.run": "onType",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -22,5 +23,6 @@
         "enable": true,
         "baseUri": "/",
         "proxyUri": "http://127.0.0.1:9999"
-    }
+    },
+    "extensions.ignoreRecommendations": true
 }
