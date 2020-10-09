@@ -1,0 +1,21 @@
+{
+    "name": "iuryprof/ifto",
+    "description": "Curso de Programador WEB",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Iury Gomes de Oliveira",
+            "email": "iury.oliveira@ifto.edu.br",
+            "homepage": "https://github.com/iurygdeoliveira",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes/"
+        }
+    }
+}
