@@ -14,6 +14,7 @@
 // Retorno o maior produto
 //O maior produto de elementos adjacentes.
 
+$vetor = [1, 2, -5, 37, 10];
 
 function adjacentElementsProduct($inputArray)
 {
