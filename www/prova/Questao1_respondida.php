@@ -23,6 +23,9 @@
 function centuryFromYear($year)
 {
 
-    // CÓDIGO ...
-
+    if ($year % 100 === 0) {
+        return intval($year / 100);
+    } else {
+        return intval($year / 100) + 1;
+    }
 }

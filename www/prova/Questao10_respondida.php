@@ -19,5 +19,13 @@
 
 function reverseInParentheses($inputString)
 {
-    // CÓDIGO
+    $inversions = substr_count($inputString, '(') + 1;
+    while ($inversions) {
+        $inversions--;
+        $open = strrpos($inputString, '(');
+        $close = (strpos($inputString, ')', $open)) - $open + 1;
+        $invert = str_replace(['(', ')'], '', strrev(substr($inputString, $open, $close)));
+        $inputString = substr_replace($inputString, $invert, $open, $close);
+    }
+    return $inputString;
 }

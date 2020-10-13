@@ -22,5 +22,7 @@
 
 function makeArrayConsecutive2($statues)
 {
-    // CÓDIGO
+    $full = range(min($statues), max($statues));
+    $diff = array_diff($full, $statues);
+    return count($diff);
 }

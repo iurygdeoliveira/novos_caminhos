@@ -18,5 +18,10 @@
 
 function checkPalindrome($inputString)
 {
-    // CÓDIGO
+
+    if ($inputString === strrev($inputString)) {
+        return true;
+    } else {
+        return false;
+    }
 }

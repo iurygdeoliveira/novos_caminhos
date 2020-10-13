@@ -18,5 +18,14 @@ $vetor = [1, 2, -5, 37, 10];
 
 function adjacentElementsProduct($inputArray)
 {
-    // CÓDIGO
+
+    $tamanho = count($inputArray);
+    $produto = [];
+
+    for ($i = 0; $i < $tamanho - 1; $i++) {
+
+        $produto[$i] = $inputArray[$i] * $inputArray[$i + 1];
+    }
+
+    return max($produto);
 }
