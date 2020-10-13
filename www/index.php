@@ -6,6 +6,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='robots' content='index, follow'>
     <link rel='shortcut icon' href='assets/img/ifto.svg'>
+    <link rel='stylesheet' href='assets/css/boot.css'>
     <link rel='stylesheet' href='assets/css/style.css'>
     <title>Document</title>
 </head>
@@ -19,14 +20,18 @@
     </header>
 
     <main>
-        <section class="main_blog">
+
+        <a href="#" class="btn btn_green">Botão </a>
+        <a href="#" class="btn btn_red">Excluir </a>
+
+        <section class="main_blog radius">
             <header>
                 <h2>Sessão Principal de Conteúdo</h2>
             </header>
 
-            <article>
+            <article class="radius">
                 <header>
-                    <h3 style="color:blue">Teste de Artigo</h3>
+                    <h3 class="title_medium_lightgray">Teste de Artigo</h3>
                 </header>
                 <p>
                     In sed consequatur modi sapiente dolorem dolores. Ut laboriosam qui laboriosam. Quas sit et non ut
