@@ -66,20 +66,20 @@
             </header>
 
             <?php for ($i = 0; $i < 12; $i++) : ?>
-                <article>
-                    <a href="#">
-                        <img src="assets/img/rede_federal2.jpg" alt="Rede Federal" title="Rede Federal">
+            <article>
+                <a href="#">
+                    <img src="assets/img/rede_federal2.jpg" alt="Rede Federal" title="Rede Federal">
+                </a>
+                <p>
+                    <a href="" class="category"> Categoria </a>
+                </p>
+                <h2>
+                    <a href="#" class="title">
+                        Omnis autem ducimus consequatur consequuntur quia cumque fugiat eum pariatur. Dolorum eum qui
+                        dolores non. Repudiandae tempora dolor occaecati quia.
                     </a>
-                    <p>
-                        <a href="" class="category"> Categoria </a>
-                    </p>
-                    <h2>
-                        <a href="#" class="title">
-                            Omnis autem ducimus consequatur consequuntur quia cumque fugiat eum pariatur. Dolorum eum qui
-                            dolores non. Repudiandae tempora dolor occaecati quia.
-                        </a>
-                    </h2>
-                </article>
+                </h2>
+            </article>
             <?php endfor; ?>
         </section>
         <!-- FIM ARTIGOS  -->
@@ -134,14 +134,14 @@
 
             <?php for ($i = 0; $i < 4; $i++) : ?>
 
-                <article>
-                    <header>
-                        <h2><?= $vantagens[$i] ?></h2>
-                    </header>
-                    <p>
-                        <?= $descricao[$i] ?>
-                    </p>
-                </article>
+            <article>
+                <header>
+                    <h2><?= $vantagens[$i] ?></h2>
+                </header>
+                <p>
+                    <?= $descricao[$i] ?>
+                </p>
+            </article>
 
             <?php endfor; ?>
 
@@ -261,11 +261,11 @@
 
                 <?php foreach ($cursos as $key => $value) : ?>
 
-                    <article>
-                        <header>
-                            <h3><?= $value ?></h3>
-                        </header>
-                    </article>
+                <article>
+                    <header>
+                        <h3><?= $value ?></h3>
+                    </header>
+                </article>
 
                 <?php endforeach; ?>
             </section>
@@ -344,6 +344,54 @@
                 <h2><a href="#" class="btn">Entrar para a Lista VIP</a></h2>
             </header>
         </article>
+    </section>
+
+    <section>
+        <header>
+            <h1>Quer Saber mais ?</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Nossas Páginas</h2>
+            </header>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">A Escola</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Links Úteis</h2>
+            </header>
+
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Aviso Legal</a></li>
+                <li><a href="#">Termo de uso</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Sobre o Projeto</h2>
+            </header>
+
+            <p>
+                Aprenda a trabalhar com HTML5 e CSS3 para desenvolver seus projetos e entregar páginas que estejam
+                dentro dos padrões da WEB seguindo as boas práticas !
+            </p>
+        </section>
+    </section>
+
+    <article>
+        <header>
+            <h2><a href="#" class="btn">Entrar para a Lista VIP</a></h2>
+        </header>
+    </article>
     </section>
 
     <section>
