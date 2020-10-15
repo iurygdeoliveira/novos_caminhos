@@ -1,0 +1,49 @@
+/* RESET  */
+*,
+*:after,
+*:before {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/* BORDAS ARREDONDADAS */
+.radius {
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+/* BOTÕES */
+.btn {
+    padding: 8px 10px;
+    font-weight: normal;
+    margin: 0px 4px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn_green {
+    background-color: #009933;
+    color: #fff;
+}
+.btn_red {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_green:hover {
+    background-color: #00cc66;
+}
+
+.btn_red:hover {
+    background-color: #ff3333;
+}
