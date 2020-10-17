@@ -33,6 +33,7 @@
     <main class="main">
         <div class="container gutter-top">
             <!-- Header -->
+            <!-- Header -->
             <header class="header box">
                 <div class="header__left">
                     <div class="header__photo">
@@ -96,87 +97,82 @@
                 <aside class="col-12 col-md-12 col-lg-2">
                     <div class="sidebar box sticky-column">
                         <ul class="nav">
-                            <li class="nav__item">
-                                <a class="active" href="index.php">
-                                    <i class="icon-user"></i>
-                                    Sobre Mim
-                                </a>
+                            <li class="nav__item"><a class="active" href="index.html"><i class="icon-user"></i>Sobre
+                                    Mim</a></li>
+                            <li class="nav__item"><a href="resume.html"><i class="icon-file-text"></i>Currículo</a></li>
+                            <li class="nav__item"><a href="works.html"><i class="icon-codesandbox"></i>Portifólio</a>
                             </li>
-                            <li class="nav__item">
-                                <a href="resume.php">
-                                    <i class="icon-file-text"></i>
-                                    Currículo
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="works.php">
-                                    <i class="icon-codesandbox"></i>
-                                    Portifólio
-                                </a>
-                            </li>
+                            <!--<li class="nav__item"><a href="blog.html"><i class="icon-book-open"></i>Blog</a></li>-->
+                            <li class="nav__item"><a href="contact.html"><i class="icon-book"></i>Contato</a></li>
                         </ul>
                     </div>
                 </aside>
 
-                <!-- Conteúdo do site -->
+                <!-- Conteudo -->
                 <div class="col-12 col-md-12 col-lg-10">
                     <div class="box box-content">
-                        <!-- Sobre Mim  -->
-                        <div class="pb-0 pb-sm-2">
-                            <h1 class="title title--h1 first-title title__separate">Sobre Mim</h1>
-                            <p>Como muitos, comecei na programação por curiosidade! Com o tempo, o amor pela programação
-                                foi
-                                crescendo a ponto de se tornar uma profissão e me especializar na área. Hoje, com a
-                                bagagem que
-                                tenho, compartilho meu conhecimento com todos os alunos do Campus Araguaina - IFTO</p>
+                        <div class="pb-2">
+                            <h1 class="title title--h1 first-title title__separate">Contato</h1>
+                        </div>
 
+                        <!-- Contato -->
 
-                            <div>
-
-                                <!-- Clients -->
-                                <div class="mt-4">
-                                    <h2 class="title title--h3">Clientes</h2>
-
-                                    <div class="swiper-container js-carousel-clients">
-                                        <div class="swiper-wrapper">
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="#">
-                                                    <img src="assets/img/ifto.svg" style="background-color: #FFF;"
-                                                        alt="IFTO Logo" /></a>
-                                            </div>
-
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="#"><img src="assets/img/ifto.svg"
-                                                        style="background-color: #FFF;" alt="IFTO Logo" /></a>
-                                            </div>
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="#"><img src="assets/img/ifto.svg"
-                                                        style="background-color: #FFF;" alt="IFTO Logo" /></a>
-                                            </div>
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="#">
-                                                    <img src="assets/img/ifto.svg" style="background-color: #FFF;"
-                                                        alt="IFTO Logo" /></a>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="swiper-pagination"></div>
-                                    </div>
+                        <form action="email.php" method="post" id="contact-form" class="contact-form"
+                            data-toggle="validator">
+                            <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control" id="nameContact" name="nameContact"
+                                        placeholder="Nome" required="required" autocomplete="on"
+                                        oninvalid="setCustomValidity('Fill in the field')"
+                                        onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="phone" class="form-control" id="phoneContact" name="phoneContact"
+                                        placeholder="Telefone" required="required" autocomplete="on"
+                                        oninvalid="setCustomValidity('Email is incorrect')"
+                                        onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-12">
+                                    <input type="email" class="form-control" id="emailContact" name="emailContact"
+                                        placeholder="Email" required="required" autocomplete="on"
+                                        oninvalid="setCustomValidity('Email is incorrect')"
+                                        onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-12">
+                                    <textarea class="textarea form-control" id="messageContact" name="messageContact"
+                                        placeholder="Mensagem" rows="4" required="required"
+                                        oninvalid="setCustomValidity('Fill in the field')"
+                                        onkeyup="setCustomValidity('')"></textarea>
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+                                    <div id="validator-contact" class="hidden"></div>
+                                </div>
+                                <div class="col-12 col-md-6 order-1 order-md-2 text-right">
+                                    <button type="submit" class="btn"><i class="font-icon icon-send"></i>
+                                        Enviar</button>
+                                </div>
+                            </div>
+                        </form><br><br><br>
 
-                            <!-- Footer -->
-                            <footer class="footer">
-                                © Iury Gomes de Oliveira
-                            </footer>
+                        <div class="map" id="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.824943304019!2d-46.82046378548918!3d-23.646439470623644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54a94ba3ac0d%3A0x86dcf699b8be9412!2sParque%20Luiza%2C%20Embu%20das%20Artes%20-%20SP%2C%2006810-240!5e0!3m2!1spt-BR!2sbr!4v1599504382367!5m2!1spt-BR!2sbr"
+                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
+
+                    <!-- Footer -->
+                    <footer class="footer">© Iury Gomes de Oliveira</footer>
                 </div>
+            </div>
+        </div>
     </main>
 
     <!-- SVG masks -->
@@ -198,7 +194,7 @@
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/common.js"></script>
 
-
+    <script src="assets/demo/plugins-demo.js"></script>
 </body>
 
 </html>
