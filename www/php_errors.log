@@ -52,3 +52,7 @@
 [18-Oct-2020 13:25:17 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
 [18-Oct-2020 13:25:17 America/Araguaina] PHP Stack trace:
 [18-Oct-2020 13:25:17 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[18-Oct-2020 15:29:06 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[18-Oct-2020 15:29:06 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[18-Oct-2020 15:29:06 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
+[18-Oct-2020 15:29:06 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
