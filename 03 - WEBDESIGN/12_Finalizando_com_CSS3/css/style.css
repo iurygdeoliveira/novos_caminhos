@@ -1,0 +1,407 @@
+/*
+ identificador seletor {
+    propriedade: valor;
+} 
+
+
+IDENTIFICADOR
+. = classe
+# = id
+
+SELETOR
+- elementos do html (p h1 h2 ul)
+- nome da classe/id
+
+PROPRIEDADES
+color, text-align, border, font-weight
+
+VALOR
+gren, blue, red, black, lef, center, right
+*/
+
+/* ############ */
+
+/* p {
+    color: green;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+/* ############ */
+
+/* article p {
+    color: green;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+/* ############ */
+
+/* .main_blog p {
+    color: green;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+/* ############ */
+
+/* .main_blog {
+    color: green;
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog p {
+    color: green;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+/* ############ */
+
+/* .main_blog {
+    width: 800px;
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+} */
+
+/* ############ */
+
+/* .main_blog {
+    width: 800px;
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+} */
+
+/* ############ */
+
+/* .main_blog {
+    width: 800px;
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red;
+} */
+
+/* ############ */
+
+/* .main_blog {
+    width: 800px;
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red !important;
+} */
+
+/* ############ */
+
+/* .main_blog {
+    /* 
+    max-width: 1000px;
+    width: 96%;
+     */ /*
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red !important;
+}
+
+/* .main_blog article p {
+    font-size: 18px;
+} */
+/*
+.main_blog article p {
+    /* font-size: 1em; */
+/*font-size: 1.2em;
+} */
+
+/* ############ 1 */
+
+/* .main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red !important;
+}
+
+.main_blog article p {
+    font-size: 1.1em;
+} */
+
+/* ############ 2 */
+
+/* .main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red !important;
+}
+
+.main_blog article p {
+    font-size: 1.1em;
+}
+
+@media (max-width: 640px) {
+    .main_blog article {
+        flex-basis: calc(100% - 40px);
+    }
+} */
+
+/* ############ 4 */
+
+/* .main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+} */
+
+/* .main_blog article {
+    flex-basis: calc(50% - 40px - 20px);  */
+/* 3.1 padding: 20px; */
+/* padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+} */
+
+/* .main_blog article h3 {
+    color: red;
+}
+
+.main_blog article p {
+    font-size: 1.1em;
+}
+
+.title_medium_lightgray {
+    color: lightgray !important;
+    font-size: 1.4em;
+    font-weight: bold; 
+} */
+/* 3.1 text-decoration: underline; */
+/* 3.2 */
+/* border-bottom: 1px solid #ccc;
+    padding-bottom: 4px; */
+/* 3.2 */
+/* }
+
+@media (max-width: 640px) {
+    .main_blog article {
+        flex-basis: calc(100% - 40px);
+    }
+}
+
+/* ############ 4 */
+
+/* .main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red;
+}
+
+.main_blog article p {
+    font-size: 1.2em;
+} */
+
+/* ###### DIVISÃO #####  */
+
+/* .main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red;
+}
+
+.main_blog article p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 640px) {
+    .main_blog article {
+        flex-basis: calc(100% - 40px);
+    }
+} */
+
+/* ###### DIVISÃO #####  */
+
+.main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article h3 {
+    color: red;
+}
+
+.main_blog article p {
+    font-size: 1.1em;
+}
+
+.title_medium_lightgray {
+    color: lightgray !important;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+@media (max-width: 640px) {
+    .main_blog article {
+        flex-basis: calc(100% - 40px);
+    }
+}
