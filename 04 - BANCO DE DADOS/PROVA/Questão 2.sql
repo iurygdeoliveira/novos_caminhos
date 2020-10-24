@@ -22,7 +22,7 @@ id	name                street	        city	        state
 3	Caroline Silva	    Av São Paulo	Salvador	    BA	
 4	Guilerme Staff      Rua Central	    Porto Alegre	RS	
 5	Isabela Moraes	    Av Juiz Grande	Curitiba	    PR	
-6	Francisco Accerr	Av Paulista	São Paulo	SP 	    	 
+6	Francisco Accerr	Av Paulista	São Paulo	        SP 	    	 
 
 -- EXEMPLO DE SAÍDA ESPERADO
 city	
