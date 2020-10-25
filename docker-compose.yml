@@ -1,12 +1,13 @@
 <<<<<<< HEAD
 version: "3"
+
 services:
     mysql:
         image: mysql:5.7
         environment:
             - MYSQL_USER=root
-            - MYSQL_ROOT_PASSWORD=secret
-            - MYSQL_DATABASE=Curso-Ifes
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=novos_caminhos
         ports:
             - 3306:3306
         volumes:
@@ -34,13 +35,14 @@ volumes:
     db_data:
 =======
 version: "3"
+
 services:
     mysql:
         image: mysql:5.7
         environment:
             - MYSQL_USER=root
-            - MYSQL_ROOT_PASSWORD=secret
-            - MYSQL_DATABASE=Curso-Ifes
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=novos_caminhos
         ports:
             - 3306:3306
         volumes:
