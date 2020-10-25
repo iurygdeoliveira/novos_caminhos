@@ -7,7 +7,7 @@ services:
         environment:
             - MYSQL_USER=root
             - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_DATABASE=novos_caminhos
+            - MYSQL_DATABASE=Curso-Ifes
         ports:
             - 3306:3306
         volumes:
@@ -42,7 +42,7 @@ services:
         environment:
             - MYSQL_USER=root
             - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_DATABASE=novos_caminhos
+            - MYSQL_DATABASE=Curso-Ifes
         ports:
             - 3306:3306
         volumes:
