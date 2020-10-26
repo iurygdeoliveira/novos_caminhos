@@ -12,7 +12,7 @@
 
 # EXPOSE: Informa o docker que o container irá escutar em uma porta tcp ou udp especifica
 
-FROM php:7.4.9-fpm-alpine
+FROM php:7.4.11-fpm-alpine
 
 RUN apk update
 RUN apk upgrade 
@@ -24,8 +24,8 @@ RUN apk add --no-cache php7-pdo php7-curl php7-bcmath php7-openssl php7-zip php7
 RUN docker-php-ext-install pdo_mysql intl opcache json mbstring sockets
 
 RUN apk add --no-cache $PHPIZE_DEPS \
-    && pecl install xdebug-2.9.0 \
-    && docker-php-ext-enable xdebug
+  && pecl install xdebug-2.9.0 \
+  && docker-php-ext-enable xdebug
 
 ENV timezone=America/Araguaina 
 

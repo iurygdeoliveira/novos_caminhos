@@ -1,0 +1,9 @@
+{
+    "gitflow4code.features": [
+        {
+            "name": "feature/webdesing",
+            "base": "develop"
+        }
+    ],
+    "liveServer.settings.port": 5503
+}

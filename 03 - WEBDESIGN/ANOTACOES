@@ -1,0 +1,33 @@
+VERSÕES DO HTML
+
+HTML+
+HTML 2.0
+HTML 3.0
+XHTML 3.0
+HTML5 - WHATWG.ORG (fundada por desenvolvedores do Opera, Apple e Mozila
+                    com o objetivo de criarem uma versão mais flexível do 
+                    html, que é o que temos hoje como html 5)
+
+PREMISSAS IMPORTANTES A SEREM ENTENDIDAS PELOS DEVS COM RELAÇÃO AO HTML
+
+1) A sua codificação em html deve ser entendida universalmente
+   independente da resolução do dispositivo
+
+2) Linguagem HTML deve ser de fácil comprensão para humanos quanto para máquinas
+
+3) A interoperabilidade barrou a linguagem proprietária
+
+4) O HTML5 possibilita desenvolvimento modular
+   - Cada feature pode ser atribuída para uma equipe de devs
+   - Possibilita uma frequência maior de atualizações
+
+5) LINGUAGENS PARA PROGRAMAÇÃO WEB
+   - HTML 5: Marcação do conteúdo da Página (Parágrado, títulos, botões ...)
+   - CSS3: Estilização dos elementos (Cores, tamanhos, bordas, posicionamentos)
+   - JAVASCRIPT: Executar ações quando disparado um evento
+   - PHP (NODE JS, JAVA, PYTHON, C++): controlar o fluxo de operações
+     - Laços de repetição
+     - Integração com Banco de Dados
+     - Controle de acesso
+     - Sessão do usuário
+     - Condicionamento

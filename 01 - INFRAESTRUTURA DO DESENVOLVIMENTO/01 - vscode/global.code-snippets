@@ -15,9 +15,53 @@
     // 	],
     // 	"description": "Log output to console"
     // }
+    "IMG": {
+        "prefix": "img",
+        "body": ["<img src='assets/img/$1' alt='' title=''>"]
+    },
+    "SECTION.H1": {
+        "prefix": "section.h1",
+        "body": [
+            "<section>",
+            "<header>",
+            "<h1>$1</h1>",
+            "</header>",
+            "</section>"
+        ]
+    },
+    "SECTION.H2": {
+        "prefix": "section.h2",
+        "body": [
+            "<section>",
+            "<header>",
+            "<h2>$1</h2>",
+            "</header>",
+            "</section>"
+        ]
+    },
+    "ARTICLE.H2": {
+        "prefix": "article.h2",
+        "body": [
+            "<article>",
+            "<header>",
+            "<h2>$1</h2>",
+            "</header>",
+            "</article>"
+        ]
+    },
+    "ARTICLE.H3": {
+        "prefix": "article.h3",
+        "body": [
+            "<article>",
+            "<header>",
+            "<h3>$1</h3>",
+            "</header>",
+            "</article>"
+        ]
+    },
     "PHP TAG": {
         "prefix": "php",
-        "body": ["<?php $1 ?>"],
+        "body": ["<?php", "$1 "],
         "description": "Insere tag php"
     },
     "HTML TAG": {
@@ -28,10 +72,14 @@
             "<head>",
             "<meta charset='UTF-8'>",
             "<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+            "<meta name='robots' content='index, follow'>",
+            "<link rel='shortcut icon' href=''>",
+            "<link rel='stylesheet' href=''>",
             "<title>Document</title>",
             "</head>",
             "<body>",
             " ",
+            "<script>  </script>",
             "</body>",
             "</html>"
         ],
@@ -41,7 +89,9 @@
         "prefix": "phpfile",
         "body": [
             "<?php",
+            "declare(strict_types=1);",
             "require __DIR__ . '/../framework/config.php';",
+            "require_once __DIR__ . '/../vendor/autoload.php';",
             "PHPClassName('CLASS_TITLE');",
             " ",
             "/*",
@@ -49,6 +99,6 @@
             "*/",
             "PHPClassSession('', __LINE__);"
         ],
-        "description": "Insere tag html"
+        "description": "Insere estrutura base do php"
     }
 }
