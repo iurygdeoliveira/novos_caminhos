@@ -17,8 +17,8 @@
             "askForPassword": true,
             "driver": "MySQL",
             "name": "Local instance MySQL80",
-            "database": "Curso-Ifes",
-            "username": "root"
+            "username": "root",
+            "database": "MySQL database"
         }
     ]
 }
