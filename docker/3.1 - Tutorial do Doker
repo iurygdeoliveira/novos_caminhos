@@ -82,7 +82,7 @@ docker rename "id do container" "novonome" (Obs: retire as aspas.)
 
 Especificar variáveis de ambiente
 docker run -e MYSQL_ROOT_PASSWORD=root mysql
-docker run -e MYSQL_ROOT_PASSWORD=root --name Curso-Ifes -d -p 3306:3306 mysql php nginx 
+docker run -e MYSQL_ROOT_PASSWORD=root --name Curso-Ifes -d -p 3306:3306 mysql 
 
      
 
