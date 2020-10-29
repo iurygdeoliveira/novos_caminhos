@@ -7,7 +7,7 @@ services:
             - MYSQL_ROOT_PASSWORD=root
             - MYSQL_DATABASE=cursoifes
         ports:
-            - 3306:3306
+            - 3307:3306            
         volumes:
             - db_data:/var/lib/mysql
     php:
