@@ -33,7 +33,7 @@ docker image prune --all
 Ver container rodando
 docker ps
 
-Ver container criados
+Ver container criado
 docker ps -a
 
 Parar container
