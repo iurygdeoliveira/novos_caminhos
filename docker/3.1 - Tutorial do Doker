@@ -25,7 +25,7 @@ Para deletar imagens que estão presentes nos contêineres existentes que estão
 docker image prune –a
 
 Para deletar somente imagens específicas
-docker image prune -a --filter "id da imagem=24h" (remover aspas)
+docker rmi Image Image
 
 Para deletar todas as images
 docker image prune --all
