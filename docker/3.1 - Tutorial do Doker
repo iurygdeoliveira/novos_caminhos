@@ -1,4 +1,4 @@
-TUTORIAL DO DOCKER LINUX
+--TUTORIAL DO DOCKER LINUX
 
 (✔) 1 - O que é o docker
 (✔) 2 - Entendendo containers
@@ -14,7 +14,7 @@ TUTORIAL DO DOCKER LINUX
         - remover um container (sudo docker rm < id container >)
         - remover uma imagem (sudo docker rmi < id imagem >)
 
-TUTORIAL DO DOCKER WINDOWS 
+--TUTORIAL DO DOCKER WINDOWS 
 Ver as imagens baixadas
 docker images
 
@@ -45,6 +45,7 @@ docker rm "id do container' (remover aspas)
 Remover a força o container
 docker rm -f "id do container' (remover aspas)
 
+--IMAGENS
 https://hub.docker.com/_/docker
 docker image pull docker
 docker pull docker
@@ -61,11 +62,11 @@ https://hub.docker.com/_/php
 docker image pull php
 docker pull php
 
-Contruir
+Construir container
 Use comando
 docker-compose build
 
-Integrar e subir
+Integrar e subir container
 Use comando
 docker-compose up
 
