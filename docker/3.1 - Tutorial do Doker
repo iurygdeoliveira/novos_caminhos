@@ -1,4 +1,4 @@
-TUTORIAL DO DOCKER
+--TUTORIAL DO DOCKER
 
 (✔) 1 - O que é o docker
 (✔) 2 - Entendendo containers
@@ -13,6 +13,76 @@ TUTORIAL DO DOCKER
         - parar a execução de um container (sudo docker stop < id container >)
         - remover um container (sudo docker rm < id container >)
         - remover uma imagem (sudo docker rmi < id imagem >)
+        
+        
+--TUTORIAL DO DOCKER WINDOWS 
+Ver as imagens baixadas
+docker images
+
+Para remover imagens que estão avulsas, recentes e que não estão marcadas com nenhum comando
+docker image prune
+
+Para deletar imagens que estão presentes nos contêineres existentes que estão marcados
+docker image prune –a
+
+Para deletar somente imagens específicas
+docker image prune -a --filter "id da imagem=24h" (remover aspas)
+
+Para deletar todas as images
+docker image prune --all
+
+Ver container rodando
+docker ps
+
+Ver container criado
+docker ps -a
+
+Parar container
+docker stop "id do container' (remover aspas)
+
+Remover container
+docker rm "id do container' (remover aspas)
+
+Remover a força o container
+docker rm -f "id do container' (remover aspas)
+
+--IMAGENS OFICIAIS
+https://hub.docker.com/_/docker
+docker image pull docker
+docker pull docker
+
+https://hub.docker.com/_/mysql
+docker image pull mysql
+docker pull mysql
+
+https://hub.docker.com/_/nginx
+docker image pull nginx
+docker pull nginx
+
+https://hub.docker.com/_/php
+docker image pull php
+docker pull php
+
+Construir container
+Use comando
+docker-compose build
+
+Integrar e subir container
+Use comando
+docker-compose up
+
+Se preferir pegue todo material, abra no VS Code, use o terminal bash, ou terminal de sua preferência.
+delete seu container e crie com o comando
+docker run -d -p 80:80 docker/getting-started
+
+Se quiser alterar o nome do container
+com o docker aberto na máquina com o container rodando. Use comando para verificar a descrição dele.
+docker ps ou docker ps -a
+pegue o id do container
+Use comando
+docker rename "id do container" "novonome" (Obs: retire as aspas.)
+        
+        
 
 
 
