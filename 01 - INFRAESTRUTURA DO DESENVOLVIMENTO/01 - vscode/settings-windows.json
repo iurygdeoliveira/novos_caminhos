@@ -23,6 +23,6 @@
     "liveServer.settings.proxy": {
         "enable": true,
         "baseUri": "/",
-        "proxyUri": "http://127.0.0.1:9999"
+        "proxyUri": "https://adennyfernandesphp.github.io/"
     }
 }
