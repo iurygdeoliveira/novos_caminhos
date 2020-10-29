@@ -5,7 +5,7 @@ services:
         environment:
             - MYSQL_USER=root
             - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_DATABASE=Curso-Ifes
+            - MYSQL_DATABASE=cursoifes
         ports:
             - 3306:3306
         volumes:
