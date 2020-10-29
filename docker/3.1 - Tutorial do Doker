@@ -45,7 +45,7 @@ docker rm "id do container' (remover aspas)
 Remover a força o container
 docker rm -f "id do container' (remover aspas)
 
---IMAGENS
+--IMAGENS OFICIAIS
 https://hub.docker.com/_/docker
 docker image pull docker
 docker pull docker
