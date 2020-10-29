@@ -70,7 +70,7 @@ Integrar e subir container
 Use comando
 docker-compose up
 
-Se preferir pegue todo material, abra no VS Code, use o terminal bash
+Se preferir pegue todo material, abra no VS Code, use o terminal bash, ou terminal de sua preferência.
 delete seu container e crie com o comando
 docker run -d -p 80:80 docker/getting-started
 
