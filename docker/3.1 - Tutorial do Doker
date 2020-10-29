@@ -76,7 +76,7 @@ docker run -d -p 80:80 docker/getting-started
 
 Se quiser alterar o nome do container
 com o docker aberto na máquina com o container rodando. Use comando para verificar a descrição dele.
-docker ps
+docker ps ou docker ps -a
 pegue o id do container
 Use comando
 docker rename "id do container" "novonome" (Obs: retire as aspas.)
