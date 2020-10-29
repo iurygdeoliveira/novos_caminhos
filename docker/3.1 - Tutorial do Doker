@@ -18,7 +18,7 @@
 Ver as imagens baixadas
 docker images
 
-Para remover imagens que estão avulsas, são recentes e que não estão marcadas com nenhum comando
+Para remover imagens que estão avulsas, recentes e que não estão marcadas com nenhum comando
 docker image prune
 
 Para deletar imagens que estão presentes nos contêineres existentes que estão marcados
