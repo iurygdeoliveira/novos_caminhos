@@ -1,4 +1,4 @@
-TUTORIAL DO DOCKER
+TUTORIAL DO DOCKER LINUX
 
 (✔) 1 - O que é o docker
 (✔) 2 - Entendendo containers
@@ -14,7 +14,7 @@ TUTORIAL DO DOCKER
         - remover um container (sudo docker rm < id container >)
         - remover uma imagem (sudo docker rmi < id imagem >)
 
-WINDOWS 
+TUTORIAL DO DOCKER WINDOWS 
 Ver as imagens baixadas
 docker images
 
