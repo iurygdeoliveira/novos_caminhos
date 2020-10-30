@@ -37,8 +37,12 @@
                         <img class="header__photo-img" src="assets/img/my_profile.jpg" alt="Adenny Fernandes">
                     </div>
                     <div class="header__base-info">
-                        <h4 class="title titl--h4">Adenny Fernandes</h4>
-                        <div class="status">Programador Web</div>
+                        <h4 class="title titl--h4">
+                            <font color="Crimson">Adenny Fernandes</font>
+                        </h4>
+                        <div class="status">
+                            <font color="Crimson">Aprendiz à Programador Web</font>
+                        </div>
                         <ul class="header__social">
                             <li>
                                 <a href="https://www.linkedin.com/in/adenny-fernandes-a2b32b190/">
