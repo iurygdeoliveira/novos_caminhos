@@ -90,6 +90,15 @@ docker-compose pull
 
 Recrie o contêiner se o arquivo ou a imagem do docker-compose tiver sido alterada
 docker-compose up -d 
+
+Listar os containers
+docker container -a
+
+Para remover um único container, use o comando abaixo:
+docker container rm <container ID>
+
+Para deletar múltiplos containers, digite
+docker container rm <container ID> <container ID> 
      
 
 
