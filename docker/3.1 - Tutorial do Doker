@@ -85,6 +85,11 @@ Especificar variáveis de ambiente
 docker run -e MYSQL_ROOT_PASSWORD=root mysql
 docker run -e MYSQL_ROOT_PASSWORD=root --name Curso-Ifes -d -p 3306:3306 mysql 
 
+Alterei meus dados, posso sincronizar com o registro de imagem de serviço do docker
+docker-compose pull
+
+Recrie o contêiner se o arquivo ou a imagem do docker-compose tiver sido alterada
+docker-compose up -d 
      
 
 
