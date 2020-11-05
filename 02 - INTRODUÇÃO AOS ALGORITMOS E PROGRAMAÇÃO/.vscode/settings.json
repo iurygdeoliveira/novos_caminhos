@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO"
+    "liveServer.settings.multiRootWorkspaceName": "02 - INTRODUÇÃO AOS ALGORITMOS E PROGRAMAÇÃO",
+    "editor.suggest.statusBar.visible": true,
+    "debug.showSubSessionsInToolBar": true
 }
