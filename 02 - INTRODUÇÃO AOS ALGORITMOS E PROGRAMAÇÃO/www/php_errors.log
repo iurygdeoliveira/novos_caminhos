@@ -350,3 +350,13 @@
 [04-Nov-2020 22:37:47 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
 [04-Nov-2020 22:37:47 America/Araguaina] PHP Stack trace:
 [04-Nov-2020 22:37:47 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:49:33 America/Araguaina] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PHPClassSession(), 1 passed in /usr/share/nginx/html/Comandos de saida/index.php on line 5 and at least 2 expected in /usr/share/nginx/html/framework/config.php:47
+Stack trace:
+#0 /usr/share/nginx/html/Comandos de saida/index.php(5): PHPClassSession()
+#1 {main}
+  thrown in /usr/share/nginx/html/framework/config.php on line 47
+[04-Nov-2020 22:49:34 America/Araguaina] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PHPClassSession(), 1 passed in /usr/share/nginx/html/Comandos de saida/index.php on line 5 and at least 2 expected in /usr/share/nginx/html/framework/config.php:47
+Stack trace:
+#0 /usr/share/nginx/html/Comandos de saida/index.php(5): PHPClassSession()
+#1 {main}
+  thrown in /usr/share/nginx/html/framework/config.php on line 47
