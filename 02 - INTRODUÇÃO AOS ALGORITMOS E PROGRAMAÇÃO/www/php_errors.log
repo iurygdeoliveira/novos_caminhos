@@ -66,3 +66,287 @@
 [29-Oct-2020 22:07:42 America/Araguaina] PHP Parse error:  syntax error, unexpected 'iniciar' (T_STRING) in /usr/share/nginx/html/index.php on line 18
 [02-Nov-2020 11:29:37 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
 [02-Nov-2020 11:29:38 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
+[04-Nov-2020 22:36:53 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[04-Nov-2020 22:36:53 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
+[04-Nov-2020 22:37:27 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:27 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:27 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:27 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:28 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:28 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:28 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:28 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:28 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:29 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:29 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:29 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:29 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:29 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:29 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:30 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:30 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:30 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:30 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:30 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:31 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:32 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:32 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:32 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:32 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:32 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:32 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:33 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:33 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:34 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:35 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:35 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:36 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:38 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:38 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:38 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:39 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:39 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:39 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:39 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:39 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:39 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:39 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:40 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:40 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:41 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:41 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:41 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:41 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:42 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:43 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:43 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:44 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:44 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:44 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:44 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:44 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:44 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:45 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:45 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:46 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:46 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
+[04-Nov-2020 22:37:47 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index.php on line 2
+[04-Nov-2020 22:37:47 America/Araguaina] PHP Stack trace:
+[04-Nov-2020 22:37:47 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index.php:0
