@@ -360,3 +360,17 @@ Stack trace:
 #0 /usr/share/nginx/html/Comandos de saida/index.php(5): PHPClassSession()
 #1 {main}
   thrown in /usr/share/nginx/html/framework/config.php on line 47
+[08-Nov-2020 15:07:19 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[08-Nov-2020 15:07:19 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
+[08-Nov-2020 15:07:23 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index copy.php on line 2
+[08-Nov-2020 15:07:23 America/Araguaina] PHP Stack trace:
+[08-Nov-2020 15:07:23 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index copy.php:0
+[08-Nov-2020 15:07:23 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index copy.php on line 2
+[08-Nov-2020 15:07:23 America/Araguaina] PHP Stack trace:
+[08-Nov-2020 15:07:24 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index copy.php:0
+[08-Nov-2020 15:07:27 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/../framework/config.php): failed to open stream: No such file or directory in /usr/share/nginx/html/index copy.php on line 2
+[08-Nov-2020 15:07:27 America/Araguaina] PHP Stack trace:
+[08-Nov-2020 15:07:27 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index copy.php:0
+[08-Nov-2020 15:07:27 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/../framework/config.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/index copy.php on line 2
+[08-Nov-2020 15:07:27 America/Araguaina] PHP Stack trace:
+[08-Nov-2020 15:07:27 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/index copy.php:0
